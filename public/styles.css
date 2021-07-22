@@ -1,0 +1,22 @@
+
+nav{
+    position:fixed;
+}
+
+.navbar spam>img{
+    border-radius: 50%;
+    width : 50px;
+    padding-left: 10px;
+}
+#companyName{
+    position: relative;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    
+    color: rgb(192, 221, 192);
+}
+
+#navbarNav{
+    padding-right: 100px;
+}
+
