@@ -5,24 +5,16 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark ">
         <div class="container-fluid">
-          <spam className="navbar-brand" id="companyName">
-            <img src={"/mylogo.jpg"} />
+          <span className="navbar-brand" id="companyName">
+            <img src={"/mylogo.jpg"} alt="img" />
             AMAR PARIHAR{" "}
-          </spam>
+          </span>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div className="collapse navbar-collapse" id="navbarNav">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item active">
                 <Link to="/" className="nav-link">
@@ -37,6 +29,11 @@ export default function Navbar() {
               <li className="nav-item">
                 <Link to="/mywork" className="nav-link" >
                   Work
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/certificate" className="nav-link" >
+                  Certficates
                 </Link>
               </li>
               <li className="nav-item">
