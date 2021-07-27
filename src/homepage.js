@@ -24,7 +24,7 @@ export default function Home(){
                    <Link to="/contactme">
                    <button id="btn-circle1"><span> Contact Me </span></button>
                    </Link>
-                   <a href="https://drive.google.com/file/d/13xpyipfj5ksgy0z3vayrIoW-JuPqxTyh/view?usp=sharing"><button id="btn-circle2"><span> Resume </span></button></a>
+                   <a href="https://drive.google.com/file/d/1gIXpRXlHED8NvPcW4RKxNxLTwmqVoFDA/view?usp=sharing"><button id="btn-circle2"><span> Resume </span></button></a>
               </div>  
                 
               </div>  
