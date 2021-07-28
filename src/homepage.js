@@ -22,7 +22,7 @@ export default function Home() {
               <span>Hi there... ,</span>
               <h1>
                 {" "}
-                <span>My Name Is</span> Amar Parihar 😎{" "}
+                <span>My Name Is</span> Amar Parihar😎{" "}
               </h1>
               <div id="myWorkProfile">
                 <h3>I am a Full-Stack Developer</h3>
