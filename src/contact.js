@@ -19,19 +19,19 @@ export default function Contact() {
 
               <h3>You Can Contact Me Here...</h3>
               <div id="icons">
-              <a style={{textDecoration:"none"}} href="https://api.whatsapp.com/send?phone=917218867376" target="_blank" rel="noreferrer">
+              <a style={{textDecoration:"none"}} href="https://api.whatsapp.com/send?phone=917218867376" target="_blank" rel="noopener noreferrer">
               <div>
                <FontAwesomeIcon icon= {faWhatsapp} size="2x"/>
               <span> Whatsapp </span> 
               </div>
               </a>
-              <a style={{textDecoration:"none"}} href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=amarparihar1359@gmail.com" target="_blank" rel="noreferrer">
+              <a style={{textDecoration:"none"}} href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=amarparihar1359@gmail.com" target="_blank" rel="noopener noreferrer">
               <div>
                <FontAwesomeIcon icon= {faEnvelope} size="2x"/>
                <span> Gmail </span>
               </div>
               </a>
-              <a style={{textDecoration:"none"}} href="https://twitter.com/intent/tweet?url=https://twitter.com/AmarPariharRaj1">
+              <a style={{textDecoration:"none"}} href="https://twitter.com/intent/tweet?url=https://twitter.com/AmarPariharRaj1" target="_blank" rel="noopener noreferrer">
               <div>
                <FontAwesomeIcon icon= {faTwitter} size="2x"/>
                <span> twitter </span>

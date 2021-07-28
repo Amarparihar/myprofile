@@ -6,7 +6,7 @@ export default function Home(){
     return(
         <>
             <section className="home-section">
-            <a style={{textDecoration:"none"}} href="https://github.com/Amarparihar" target="_blank" rel="noreferrer">
+            <a style={{textDecoration:"none"}} href="https://github.com/Amarparihar" target="_blank" rel="noopener noreferrer">
             <span><FontAwesomeIcon icon={faGithub} size="4x"/> My Work</span>
             </a>
             <div className="container-fluid ">
@@ -24,7 +24,7 @@ export default function Home(){
                    <Link to="/contactme">
                    <button id="btn-circle1"><span> Contact Me </span></button>
                    </Link>
-                   <a href="https://drive.google.com/file/d/1gIXpRXlHED8NvPcW4RKxNxLTwmqVoFDA/view?usp=sharing"><button id="btn-circle2"><span> Resume </span></button></a>
+                   <a href="https://drive.google.com/file/d/1gIXpRXlHED8NvPcW4RKxNxLTwmqVoFDA/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button id="btn-circle2"><span> Get CV</span></button></a>
               </div>  
                 
               </div>  

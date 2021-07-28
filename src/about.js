@@ -17,7 +17,7 @@ export default function AboutMe() {
               I have completed my graduation in 'Information Technology' from
               Sant Gadge Baba Amravati University,Maharashtra in the year of
               2020. I have learned Full-Stack from zen class ,{" "}
-              <a href="https://www.guvi.in/" target="_blank" rel="noreferrer">
+              <a href="https://www.guvi.in/" target="_blank" rel="noopener noreferrer">
                 G U V I
               </a>
               .

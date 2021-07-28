@@ -41,7 +41,7 @@ nav{
 }
 .homecontent span{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size:xx-large;
+    font-size:x-large;
     color: rgb(192, 172, 172);
 }
 .homecontent h1{
@@ -49,6 +49,11 @@ nav{
     font-family: 'Times New Roman', Times, serif;
     color:yellowgreen;
     
+}
+@media (max-width:500px){
+    .home-section{
+        height: 100%;
+    }
 }
 
 #myWorkProfile {
@@ -115,13 +120,25 @@ nav{
     background-color: thistle;
 }
 
-.biography{
-    padding: 30px 20% 30px 20%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
+@media (max-width:500px){
+    #profile-pic >img{
+        margin-left: 10%;
+    }
+
+    .biography p{
+        font-size: medium;
+        
+    }
 }
 
-.biography>h2{
+.biography{
+    padding: 30px 10% 30px 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: justify;
+}
+
+.biography h2{
     margin-bottom: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -294,7 +311,7 @@ nav{
 
 @media (max-width:768px){
     .certificate-img{
-        width: 400px;
+        width: 375px;
         height: auto;
     }
 }

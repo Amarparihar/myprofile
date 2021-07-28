@@ -38,7 +38,9 @@ export default function Work() {
                 <div className="card-body">
                   <a
                     href="https://github.com/Amarparihar/urlshortner-react"
+                   
                     class="card-link"
+                    target="_blank" rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Code
@@ -48,7 +50,9 @@ export default function Work() {
                   </a>
                   <a
                     href="https://optimistic-lamarr-71a0f7.netlify.app"
+                    
                     className="card-link"
+                    target="_blank" rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Demo
@@ -94,7 +98,9 @@ export default function Work() {
                 <div className="card-body">
                   <a
                     href="https://github.com/Amarparihar/reset-password-react"
+                   
                     class="card-link"
+                    target="_blank" rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Code
@@ -104,7 +110,9 @@ export default function Work() {
                   </a>
                   <a
                     href="https://modest-nobel-97ff69.netlify.app"
+                   
                     className="card-link"
+                    target="_blank" rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Demo
@@ -140,7 +148,9 @@ export default function Work() {
                 <div className="card-body">
                   <a
                     href="https://github.com/Amarparihar/frontend-admin-page"
+                   
                     class="card-link"
+                    target="_blank" rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Code
@@ -150,7 +160,9 @@ export default function Work() {
                   </a>
                   <a
                     href="https://sharp-murdock-d3a556.netlify.app"
+                   
                     className="card-link"
+                    target="_blank" rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Demo
@@ -186,7 +198,9 @@ export default function Work() {
                 <div className="card-body">
                   <a
                     href="https://github.com/Amarparihar/WeatherAPI"
+                    
                     class="card-link"
+                    target="_blank" rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Code
@@ -196,7 +210,9 @@ export default function Work() {
                   </a>
                   <a
                     href="https://tender-euclid-152318.netlify.app"
+                   
                     className="card-link"
+                    target="_blank" rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Demo
@@ -228,7 +244,9 @@ export default function Work() {
                 <div className="card-body">
                   <a
                     href="https://github.com/Amarparihar/reactcards"
+                   
                     class="card-link"
+                    target="_blank" rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Code
@@ -238,7 +256,9 @@ export default function Work() {
                   </a>
                   <a
                     href="https://vigorous-archimedes-ebad17.netlify.app"
+                    
                     className="card-link"
+                    target="_blank" rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Demo
@@ -271,7 +291,9 @@ export default function Work() {
                 <div className="card-body">
                   <a
                     href="https://github.com/Amarparihar/Newspaper"
+                   
                     class="card-link"
+                    target="_blank" rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Code
@@ -282,6 +304,7 @@ export default function Work() {
                   <a
                     href="https://wizardly-hoover-6e4409.netlify.app"
                     className="card-link"
+                    target="_blank" rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Demo
@@ -314,7 +337,9 @@ export default function Work() {
                 <div className="card-body">
                   <a
                     href="https://github.com/Amarparihar/Resume"
+                    
                     class="card-link"
+                    target="_blank" rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Code
@@ -324,7 +349,9 @@ export default function Work() {
                   </a>
                   <a
                     href="https://relaxed-chandrasekhar-b40c41.netlify.app"
+                    
                     className="card-link"
+                    target="_blank" rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Demo
@@ -339,39 +366,3 @@ export default function Work() {
   );
 }
 
-// const[current, setCurrent] = useState(0);
-// const length= SliderData.length
-
-// const nextSlide=()=>{
-//     setCurrent(current === length - 1 ? 0 : current + 1);
-// };
-
-// const preSlide=()=>{
-//     setCurrent(current === 0 ? length - 1 : current - 1);
-// };
-
-// if(!Array.isArray(SliderData) || SliderData.length <= 0){
-//     return null;
-// }
-// return(
-// <>
-//
-//         {SliderData.map((slide, index) => {
-//           return (
-//             <>
-//             <div className={index === current ? 'slide active' : 'slide'} key={index}>
-//               {index === current && (
-
-//               )}
-
-//               </div>
-//             </>
-//           );
-//         })}
-
-//   </section>
-//   </div>
-//   </div>
-//   </div>
-
-// </>
