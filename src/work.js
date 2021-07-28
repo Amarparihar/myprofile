@@ -38,9 +38,9 @@ export default function Work() {
                 <div className="card-body">
                   <a
                     href="https://github.com/Amarparihar/urlshortner-react"
-                   
                     class="card-link"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Code
@@ -50,9 +50,9 @@ export default function Work() {
                   </a>
                   <a
                     href="https://optimistic-lamarr-71a0f7.netlify.app"
-                    
                     className="card-link"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Demo
@@ -98,9 +98,9 @@ export default function Work() {
                 <div className="card-body">
                   <a
                     href="https://github.com/Amarparihar/reset-password-react"
-                   
                     class="card-link"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Code
@@ -110,9 +110,9 @@ export default function Work() {
                   </a>
                   <a
                     href="https://modest-nobel-97ff69.netlify.app"
-                   
                     className="card-link"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Demo
@@ -148,9 +148,9 @@ export default function Work() {
                 <div className="card-body">
                   <a
                     href="https://github.com/Amarparihar/frontend-admin-page"
-                   
                     class="card-link"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Code
@@ -160,9 +160,9 @@ export default function Work() {
                   </a>
                   <a
                     href="https://sharp-murdock-d3a556.netlify.app"
-                   
                     className="card-link"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Demo
@@ -198,9 +198,9 @@ export default function Work() {
                 <div className="card-body">
                   <a
                     href="https://github.com/Amarparihar/WeatherAPI"
-                    
                     class="card-link"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Code
@@ -210,9 +210,9 @@ export default function Work() {
                   </a>
                   <a
                     href="https://tender-euclid-152318.netlify.app"
-                   
                     className="card-link"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Demo
@@ -231,7 +231,7 @@ export default function Work() {
                   <h4 className="card-title">React Cards</h4>
                   <p className="card-text">
                     {" "}
-                    This is a basic cards design in react for frontend used. 
+                    This is a basic cards design in react for frontend used.
                   </p>
                   <ul className="technologyused">
                     <li>HTML</li>
@@ -244,9 +244,9 @@ export default function Work() {
                 <div className="card-body">
                   <a
                     href="https://github.com/Amarparihar/reactcards"
-                   
                     class="card-link"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Code
@@ -256,9 +256,9 @@ export default function Work() {
                   </a>
                   <a
                     href="https://vigorous-archimedes-ebad17.netlify.app"
-                    
                     className="card-link"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Demo
@@ -267,7 +267,6 @@ export default function Work() {
               </div>
             </div>
 
-            
             <div className="col-lg-4 mx-my-2">
               <div className="card" id="card">
                 <img
@@ -279,7 +278,7 @@ export default function Work() {
                   <h4 className="card-title">Newspaper</h4>
                   <p className="card-text">
                     {" "}
-                    I have created a simple Newspaper using Bootstrap. 
+                    I have created a simple Newspaper using Bootstrap.
                   </p>
                   <ul className="technologyused">
                     <li>HTML</li>
@@ -291,9 +290,9 @@ export default function Work() {
                 <div className="card-body">
                   <a
                     href="https://github.com/Amarparihar/Newspaper"
-                   
                     class="card-link"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Code
@@ -304,7 +303,8 @@ export default function Work() {
                   <a
                     href="https://wizardly-hoover-6e4409.netlify.app"
                     className="card-link"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Demo
@@ -315,7 +315,7 @@ export default function Work() {
           </div>
 
           <div className="row mt-5">
-          <div className="col-lg-4 mx-my-2">
+            <div className="col-lg-4 mx-my-2">
               <div className="card" id="card">
                 <img
                   className="card-img-top"
@@ -326,7 +326,7 @@ export default function Work() {
                   <h4 className="card-title">Resume</h4>
                   <p className="card-text">
                     {" "}
-                    this is a basic Resume design in Html css. 
+                    this is a basic Resume design in Html css.
                   </p>
                   <ul className="technologyused">
                     <li>HTML</li>
@@ -337,9 +337,9 @@ export default function Work() {
                 <div className="card-body">
                   <a
                     href="https://github.com/Amarparihar/Resume"
-                    
                     class="card-link"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Code
@@ -349,9 +349,9 @@ export default function Work() {
                   </a>
                   <a
                     href="https://relaxed-chandrasekhar-b40c41.netlify.app"
-                    
                     className="card-link"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "darkslategrey" }}
                   >
                     Demo
@@ -365,4 +365,3 @@ export default function Work() {
     </>
   );
 }
-
