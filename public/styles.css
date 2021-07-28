@@ -52,10 +52,14 @@ nav{
 }
 @media (max-width:500px){
     .home-section{
-        padding: 10px 0px 100px 20px;
+        padding: 10px 0px 50px 20px;
     }
     .homecontent h1 >span{
         font-size: large ;
+    }
+
+    .home-section h3{
+        padding-bottom: 100px;
     }
 
 }
