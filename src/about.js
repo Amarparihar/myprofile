@@ -56,7 +56,7 @@ export default function AboutMe() {
 
               <img src={"/aws.png"} className="aws" alt="img" />
 
-              <img src={"/git.png"} className="git" alt="img" />
+              <img src={"/github.png"} className="github" alt="img" />
             </div>
           </section>
         </div>

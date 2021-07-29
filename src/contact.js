@@ -27,7 +27,6 @@ export default function Contact() {
               >
                 <div>
                   <FontAwesomeIcon icon={faWhatsapp} size="2x" />
-                  <span> Whatsapp </span>
                 </div>
               </a>
               <a
@@ -38,7 +37,6 @@ export default function Contact() {
               >
                 <div>
                   <FontAwesomeIcon icon={faEnvelope} size="2x" />
-                  <span> Gmail </span>
                 </div>
               </a>
               <a
@@ -49,7 +47,6 @@ export default function Contact() {
               >
                 <div>
                   <FontAwesomeIcon icon={faTwitter} size="2x" />
-                  <span> twitter </span>
                 </div>
               </a>
             </div>
