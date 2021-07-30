@@ -27,7 +27,7 @@ nav {
 }
 
 .home-section {
-  background-color: darkslategray;
+  background-color:black;
   padding: 30px;
 }
 .home-section span {
@@ -44,6 +44,7 @@ nav {
   color: rgb(192, 172, 172);
 }
 .homecontent h1 {
+    margin-top: 30px;
   padding: 30px 0px 0px 10px;
   font-family: "Times New Roman", Times, serif;
   color: yellowgreen;
@@ -99,8 +100,9 @@ nav {
   color: cadetblue;
 }
 
+
 .about-section {
-  background-color: slategray;
+  background-color: black;
   padding: 30px;
 }
 
@@ -140,6 +142,7 @@ nav {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: large;
   text-align: justify;
+  color: aliceblue;
 }
 
 .biography h2 {
@@ -158,6 +161,17 @@ nav {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: xx-large;
 }
+
+#tools {
+    width: 150px;
+    height: auto;
+    text-align: center;
+    background-color: tan;
+    border: tan 1px solid;
+    border-radius: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: xx-large;
+  }
 
 .icons {
   margin: 30px;
@@ -218,15 +232,47 @@ nav {
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
 }
 
+.expressjs:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+.vscode:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .postman:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .mongo-compass:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .mongodb-atlas:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
 .contact-section {
   padding: 30px;
-  background-color: lightsteelblue;
+  background-color: black;
   display: flex;
   text-align: center;
+   color: aliceblue;
 }
 .contact-section #heading {
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
+  color:chocolate;
 }
 
 .contact-section p {
@@ -240,6 +286,7 @@ nav {
 .contact-section h3 {
   padding: 30px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color:coral ;
 }
 
 .contact-section #icons {
@@ -249,7 +296,17 @@ nav {
 }
 .contact-section #icons div {
   width: fit-content;
-  color: black;
+  color: aliceblue;
+}
+
+.contact-section #icons div:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+.work-section{
+    background-color: black;
 }
 
 @media (max-width: 768px) {
@@ -259,6 +316,8 @@ nav {
     overflow: auto;
   }
 }
+
+
 
 .card {
   width: auto;
@@ -295,21 +354,30 @@ nav {
   color: slateblue;
 }
 
+.certificate-section{
+    background-color: black;
+}
+
+
 .certificate-section h2 {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-transform: uppercase;
   font-size: 50px;
   color: chocolate;
+ 
 }
 .certificate-img {
   width: 600px;
   height: auto;
+ margin-left: 30px;
+  position: relative;
 }
 
 @media (max-width: 768px) {
   .certificate-img {
-    width: 375px;
+    width: 360px;
     height: auto;
+    margin-left: 5px;
   }
 }

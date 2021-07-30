@@ -1,7 +1,7 @@
 export default function Work() {
   return (
     <>
-      <section className="work-section bg-dark">
+      <section className="work-section">
         <div className="container-fluid ">
           <div className="row">
             <div className="col-lg-12 my-5" id="project">

@@ -21,6 +21,7 @@ export default function AboutMe() {
                 href="https://www.guvi.in/"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{textDecoration:"none"}}
               >
                 G U V I
               </a>
@@ -50,11 +51,27 @@ export default function AboutMe() {
 
               <img src={"/nodejs.png"} className="nodejs" alt="img" />
 
+              <img src={"/expressjs.png"} className="expressjs" alt="img" />
+
               <img src={"/mongo.png"} className="mongo" alt="img" />
 
               <img src={"/mysql.png"} className="mysql" alt="img" />
 
               <img src={"/aws.png"} className="aws" alt="img" />
+
+            </div>
+          </section>
+          <hr/>
+          <section className="tools">
+            <div id="tools">Tools</div>
+            <div className="icons">
+              <img src={"/vscode.png"} className="vscode" alt="img" />
+
+              <img src={"/postman.png"} className="postman" alt="img" />
+
+              <img src={"/mongodb-atlas.jpg"} className="mongodb-atlas" alt="img" />
+
+              <img src={"/mongo-compass.png"} className="mongo-compass" alt="img" />
 
               <img src={"/github.png"} className="github" alt="img" />
             </div>

@@ -13,7 +13,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <span>
-            <FontAwesomeIcon icon={faGithub} size="4x" /> My Work
+            <FontAwesomeIcon icon={faGithub} size="3x" /> My Work
           </span>
         </a>
         <div className="container-fluid ">

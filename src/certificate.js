@@ -2,7 +2,7 @@ export default function Certificate() {
   return (
     <>
       <section className="certificate-section">
-        <div className="container-fluid bg-warning">
+        <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12 mx-2 my-3">
               <h2>Certificates</h2>
