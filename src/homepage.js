@@ -1,11 +1,14 @@
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
+import {Animated} from "react-animated-css";
 
 export default function Home() {
   return (
     <>
+    
       <section className="home-section">
+      <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
         <a
           style={{ textDecoration: "none" }}
           href="https://github.com/Amarparihar"
@@ -16,19 +19,28 @@ export default function Home() {
             <FontAwesomeIcon icon={faGithub} size="3x" /> My Work
           </span>
         </a>
+        </Animated>
+        
         <div className="container-fluid ">
           <div className="row gx-4 gx-lg-5 home-row1">
             <div className="col-md-10 col-lg-8 mx-auto homecontent">
+            <Animated animationIn="fadeInDown" isVisible={true}>
               <span>Hi there... ,</span>
+              </Animated>
+              <Animated animationIn="fadeInDownBig" isVisible={true}>
               <h1>
                 {" "}
                 <span>My Name Is</span> Amar Parihar😎{" "}
               </h1>
+              </Animated>
+              <Animated animationIn="fadeInLeft" isVisible={true}>
               <div id="myWorkProfile">
                 <h3>I am a Full-Stack Developer</h3>
               </div>
+              </Animated>
             </div>
-
+            
+            <Animated animationIn="zoomIn" isVisible={true}>
             <div className="box" id="box">
               <Link to="/contactme">
                 <button id="btn-circle1">
@@ -45,9 +57,11 @@ export default function Home() {
                 </button>
               </a>
             </div>
+            </Animated>
           </div>
         </div>
       </section>
+      
     </>
   );
 }
