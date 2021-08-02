@@ -5,14 +5,14 @@ export default function Certificate() {
     <>
       <section className="certificate-section">
         <div className="container-fluid">
-        <Animated animationInDelay={1000} animationInDuration={1000} animationIn="fadeInDown" isVisible={true}>
+        <Animated animationInDelay={800} animationInDuration={500} animationIn="fadeInDown" isVisible={true}>
           <div className="row">
             <div className="col-lg-12 mx-2 my-3">
               <h2>Certificates</h2>
             </div>
           </div>
           </Animated>
-          <Animated animationInDelay={2000} animationInDuration={2000} animationIn="zoomIn" isVisible={true}>
+          <Animated animationInDelay={1000} animationInDuration={1000} animationIn="zoomIn" isVisible={true}>
           <div className="row">
          
             <div className="col-lg-6 my-5 ">

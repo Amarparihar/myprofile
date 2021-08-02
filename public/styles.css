@@ -289,14 +289,24 @@ nav {
   color:coral ;
 }
 
+@media(max-width:768px){
+    #icons {
+        margin-left: 40%;
+        width: fit-content;
+        margin-bottom: 55px;
+      }
+  }
+
 .contact-section #icons {
-  margin-left: 50%;
+  margin-left: 45%;
   width: fit-content;
   margin-bottom: 55px;
 }
 .contact-section #icons div {
   width: fit-content;
   color: aliceblue;
+  padding: 10px;
+  position: relative;
 }
 
 .contact-section #icons div:hover {
@@ -304,6 +314,8 @@ nav {
     margin-bottom: 0.25rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }
+
+ 
 
 .work-section{
     background-color: black;

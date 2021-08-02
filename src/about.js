@@ -10,14 +10,14 @@ export default function AboutMe() {
             <div id="aboutme">About Me</div>
           </div>
           </Animated>
-          <Animated animationInDelay={1000} animationInDuration={1000} animationIn="fadeInDown" isVisible={true}>
+          <Animated animationInDelay={1000} animationInDuration={700} animationIn="fadeInDown" isVisible={true}>
           <div className="row">
             <div id="profile-pic">
               <img src={"/amar.jpg"} alt="img" />
             </div>
           </div>
           </Animated>
-          <Animated animationInDelay={2000} animationInDuration={3000} animationIn="zoomIn" isVisible={true}>
+          <Animated animationInDelay={1200} animationInDuration={900} animationIn="zoomIn" isVisible={true}>
           <section className="biography">
             <h2>Hey, I'm Amar! </h2>
             <p>
@@ -45,10 +45,10 @@ export default function AboutMe() {
           </Animated>
           <hr />
           <section className="skills">
-          <Animated animationInDelay={5000} animationInDuration={5000} animationIn="fadeInRight" isVisible={true}>
+          <Animated animationInDelay={2000} animationInDuration={1500} animationIn="fadeInRight" isVisible={true}>
             <div id="skills">Skills</div>
             </Animated>
-            <Animated animationInDelay={7000} animationInDuration={5000} animationIn="fadeInRight" isVisible={true}>
+            <Animated animationInDelay={2300} animationInDuration={1500} animationIn="fadeInRight" isVisible={true}>
             <div className="icons" >
               <img src={"/html.png"} className="html" alt="img" />
 
@@ -75,10 +75,10 @@ export default function AboutMe() {
           </section>
           <hr/>
           <section className="tools">
-          <Animated animationInDelay={7000} animationInDuration={5000} animationIn="fadeInLeftBig" isVisible={true}>
+          <Animated animationInDelay={2500} animationInDuration={1500} animationIn="fadeInLeftBig" isVisible={true}>
             <div id="tools">Tools</div>
             </Animated>
-            <Animated animationInDelay={9000} animationInDuration={7000} animationIn="fadeInLeftBig" isVisible={true}>
+            <Animated animationInDelay={3000} animationInDuration={1500} animationIn="fadeInLeftBig" isVisible={true}>
             <div className="icons">
               <img src={"/vscode.png"} className="vscode" alt="img" />
 

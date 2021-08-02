@@ -27,20 +27,20 @@ export default function Home() {
             <Animated animationIn="fadeInDown" isVisible={true}>
               <span>Hi there... ,</span>
               </Animated>
-              <Animated animationInDelay={1000} animationInDuration={1000}  animationIn="fadeInDown" isVisible={true}>
+              <Animated animationInDelay={700} animationInDuration={500}  animationIn="fadeInDown" isVisible={true}>
               <h1>
                 {" "}
                 <span>My Name Is</span> Amar Parihar😎{" "}
               </h1>
               </Animated>
-              <Animated animationInDelay={3000} animationInDuration={2000} animationIn="fadeInUp" isVisible={true}>
+              <Animated animationInDelay={1300} animationInDuration={500} animationIn="fadeInUp" isVisible={true}>
               <div id="myWorkProfile">
                 <h3>I am a Full-Stack Developer</h3>
               </div>
               </Animated>
             </div>
             
-            <Animated animationInDelay={4000} animationInDuration={1000} animationIn="zoomIn" isVisible={true}>
+            <Animated animationInDelay={1500} animationInDuration={500} animationIn="zoomIn" isVisible={true}>
             <div className="box" id="box">
               <Link to="/contactme">
                 <button id="btn-circle1">

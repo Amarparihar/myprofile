@@ -5,14 +5,14 @@ export default function Work() {
     <>
       <section className="work-section">
         <div className="container-fluid ">
-        <Animated animationInDelay={1000} animationInDuration={1000} animationIn="fadeInDown" isVisible={true}>
+        <Animated animationInDelay={800} animationInDuration={500} animationIn="fadeInDown" isVisible={true}>
           <div className="row">
             <div className="col-lg-12 my-5" id="project">
               <p>Projects</p>
             </div>
           </div>
           </Animated>
-          <Animated animationInDelay={2000} animationInDuration={2000} animationIn="slideInLeft" isVisible={true}>
+          <Animated animationInDelay={1500} animationInDuration={700} animationIn="slideInLeft" isVisible={true}>
           <div className="row">
             <div className="col-lg-4 mx-my-2 ">
               <div className="card" id="card">
@@ -177,7 +177,7 @@ export default function Work() {
             </div>
           </div>
           </Animated>
-          <Animated animationInDelay={4000} animationInDuration={4000} animationIn="slideInRight" isVisible={true}>
+          <Animated animationInDelay={1800} animationInDuration={1000} animationIn="slideInRight" isVisible={true}>
           <div className="row mt-5">
             <div className="col-lg-4 mx-my-2">
               <div className="card" id="card">
@@ -321,7 +321,7 @@ export default function Work() {
             </div>
           </div>
           </Animated>
-          <Animated animationInDelay={6000} animationInDuration={5000} animationIn="slideInLeft" isVisible={true}>
+          <Animated animationInDelay={2000} animationInDuration={1000} animationIn="slideInLeft" isVisible={true}>
           <div className="row mt-5">
             <div className="col-lg-4 mx-my-2">
               <div className="card" id="card">
