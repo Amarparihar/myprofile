@@ -19,6 +19,11 @@ nav {
   padding-right: 100px;
 }
 
+#navbarSupportedContent .nav-item:hover{
+    border-bottom: solid medium dimgrey;
+    border-right: solid medium dimgrey;
+}
+
 .footer {
   position: sticky;
   padding: 17px;
@@ -98,6 +103,15 @@ nav {
   border: 1px solid cadetblue;
   border-radius: 50px;
   color: cadetblue;
+}
+.box #btn-circle1:hover{
+    background-color:brown;
+    
+}
+
+.box #btn-circle2:hover{
+    background-color:brown;
+    
 }
 
 
@@ -333,37 +347,54 @@ nav {
 
 .card {
   width: auto;
-  height: 650px;
+  height: 500px;
 }
+
+.card >img{
+    
+    height:50%;
+}
+
 
 .card .card-body:hover {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  background-color:lightcoral;
 }
+
+
+
 .card-body {
-  background-color: lightslategray;
+  background-color: black;
+  color: aliceblue;
+  overflow: auto;
+  display: block;
+  visibility: visible;
+  
 }
 
 .card-text {
   font-family: "Times New Roman", Times, serif;
   font-size: small;
   text-align: justify;
+  
 }
-.technologyused div {
-  border: 1px solid rgb(192, 172, 172);
+.technologyused {
+  
   width: fit-content;
   padding: 5px;
   margin-left: 2px;
+  font-size: small;
 }
 
 #project {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
-  color: white;
+  
   text-transform: uppercase;
-  font-size: xx-large;
-  color: slateblue;
+  font-size: 50px;
+  color: chocolate;
 }
 
 .certificate-section{
