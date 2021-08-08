@@ -360,7 +360,7 @@ nav {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-  background-color:lightcoral;
+  background-color:darkred;
 }
 
 
@@ -369,10 +369,8 @@ nav {
   background-color: black;
   color: aliceblue;
   overflow: auto;
-  display: block;
-  visibility: visible;
-  
 }
+
 
 .card-text {
   font-family: "Times New Roman", Times, serif;
