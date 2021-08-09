@@ -34,35 +34,48 @@ nav {
 .home-section {
   background-color:black;
   padding: 30px;
+  
 }
 .home-section span {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
-  color: rgb(192, 172, 172);
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 .home-row1 {
   padding-top: 100px;
 }
+.homecontent h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
 .homecontent span {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: x-large;
-  color: rgb(192, 172, 172);
+  font-size: large;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 .homecontent h1 {
     margin-top: 30px;
   padding: 30px 0px 0px 10px;
   font-family: "Times New Roman", Times, serif;
-  color: yellowgreen;
+  color:yellow;
+  font-weight: bolder;
+  text-shadow: 4px 2px 5px red;
 }
 @media (max-width: 500px) {
   .home-section {
-    padding: 10px 0px 50px 20px;
+    padding: 10px 0px 50px 5px;
   }
   .homecontent h1 {
     margin-top: 80px;
+    font-size:x-large;
   }
   .homecontent h1 > span {
-    font-size: large;
+    font-size: small;
   }
 
   .home-section h3 {
@@ -73,7 +86,9 @@ nav {
 #myWorkProfile {
   padding: 10px 0px 20px 20px;
   font-family: "Times New Roman", Times, serif;
-  color: moccasin;
+  font-weight:bolder;
+  color:rgb(180, 176, 176);
+  text-shadow: 1px 2px 1px rgb(172, 159, 159);
 }
 
 #box {
@@ -129,6 +144,8 @@ nav {
   border-radius: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: xx-large;
+  text-shadow: 1px 2px 2px;
+  
 }
 
 #profile-pic > img {
@@ -174,6 +191,7 @@ nav {
   border-radius: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: xx-large;
+  text-shadow: 1px 2px 2px;
 }
 
 #tools {
@@ -185,6 +203,7 @@ nav {
     border-radius: 30px;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: xx-large;
+    text-shadow: 1px 2px 2px;
   }
 
 .icons {
@@ -198,82 +217,82 @@ nav {
 .html:hover {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
 }
 .css:hover {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
 }
 .js:hover {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
 }
 .bootstrap:hover {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
 }
 .react:hover {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
 }
 .nodejs:hover {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
 }
 .mongo:hover {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
 }
 .mysql:hover {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
 }
 .aws:hover {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
 }
 .github:hover {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
 }
 
 .expressjs:hover {
     margin-top: -0.25rem;
     margin-bottom: 0.25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
   }
 
 .vscode:hover {
     margin-top: -0.25rem;
     margin-bottom: 0.25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
   }
 
   .postman:hover {
     margin-top: -0.25rem;
     margin-bottom: 0.25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
   }
 
   .mongo-compass:hover {
     margin-top: -0.25rem;
     margin-bottom: 0.25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
   }
 
   .mongodb-atlas:hover {
     margin-top: -0.25rem;
     margin-bottom: 0.25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
   }
 
 .contact-section {
@@ -287,20 +306,23 @@ nav {
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
   color:chocolate;
+  text-shadow: 1px -2px 1px rgb(245, 242, 241);
 }
 
 .contact-section p {
   text-align: justify;
   padding: 30px;
   font-family: "Courier New", Courier, monospace;
-  font-weight: 600;
+  font-weight:900 ;
   font-size: large;
 }
 
 .contact-section h3 {
   padding: 30px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color:coral ;
+  font-weight: lighter;
+  color:rgb(231, 74, 68) ;
+  text-shadow: -1px 2px 1PX  rgb(167, 128, 128);
 }
 
 @media(max-width:768px){
@@ -326,7 +348,7 @@ nav {
 .contact-section #icons div:hover {
     margin-top: -0.25rem;
     margin-bottom: 0.25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.5rem 1rem 0 rgba(251, 5, 5, 0.3);
   }
 
  
@@ -389,10 +411,10 @@ nav {
 #project {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
-  
   text-transform: uppercase;
   font-size: 50px;
   color: chocolate;
+  text-shadow: 2px 3px 5px rgb(206, 198, 165);
 }
 
 .certificate-section{
@@ -406,13 +428,14 @@ nav {
   text-transform: uppercase;
   font-size: 50px;
   color: chocolate;
- 
+ text-shadow: 2px 3px 5px rgb(204, 200, 184);
 }
 .certificate-img {
   width: 600px;
   height: auto;
  margin-left: 30px;
   position: relative;
+  
 }
 
 @media (max-width: 768px) {

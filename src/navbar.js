@@ -41,7 +41,7 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <Link to="/certificate" className="nav-link">
-                  Certficates
+                  Certificate
                 </Link>
               </li>
               <li className="nav-item">

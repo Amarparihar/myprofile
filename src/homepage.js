@@ -25,7 +25,7 @@ export default function Home() {
           <div className="row gx-4 gx-lg-5 home-row1">
             <div className="col-md-10 col-lg-8 mx-auto homecontent">
             <Animated animationIn="fadeInDown" isVisible={true}>
-              <span>Hi there... ,</span>
+              <h2>Hi there... ,</h2>
               </Animated>
               <Animated animationInDelay={700} animationInDuration={500}  animationIn="fadeInDown" isVisible={true}>
               <h1>
