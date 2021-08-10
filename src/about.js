@@ -13,7 +13,7 @@ export default function AboutMe() {
           <Animated animationInDelay={1000} animationInDuration={700} animationIn="fadeInDown" isVisible={true}>
           <div className="row">
             <div id="profile-pic">
-              <img src={"/amar.jpg"} alt="img" />
+              <img src={"/profilepic.jpg"} alt="img" />
             </div>
           </div>
           </Animated>

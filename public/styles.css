@@ -6,17 +6,20 @@ nav {
   border-radius: 50%;
   width: 50px;
   padding-left: 10px;
+  
 }
 #companyName {
   position: relative;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: small;
-
+  font-weight: bolder;
   color: rgb(192, 221, 192);
+  text-shadow: 1px 2px 3px rgb(192, 221, 192);
 }
 
 #navbarSupportedContent {
   padding-right: 100px;
+  text-shadow: 1px  1px 2px white;
 }
 
 #navbarSupportedContent .nav-item:hover{
@@ -40,7 +43,7 @@ nav {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
   color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px rgb(29, 4, 248), 1px 2px 25px blue, -1px 2px 5px darkblue;
 }
 .home-row1 {
   padding-top: 100px;
@@ -139,8 +142,8 @@ nav {
   width: auto;
   height: auto;
   margin-bottom: 50px;
-  background-color: tan;
-  border: tan 1px solid;
+  background-image: linear-gradient(rgb(64, 99, 112),rgb(146,200,150),rgb(146, 198, 219),rgb(64, 99, 112));
+  border: rgb(146, 198, 219) 1px solid;
   border-radius: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: xx-large;
@@ -153,9 +156,8 @@ nav {
   height: auto;
   margin-left: 40%;
   padding: 15px;
-  border: 1px solid tan;
-  border-radius: 30px;
-  background-color: thistle;
+  border-radius: 10%;
+background-image:linear-gradient(white, black,white,black,white);
 }
 
 @media (max-width: 500px) {
@@ -186,8 +188,8 @@ nav {
   width: 150px;
   height: auto;
   text-align: center;
-  background-color: tan;
-  border: tan 1px solid;
+  background-image: linear-gradient(rgb(64, 99, 112),rgb(146,200,150),rgb(146, 198, 219),rgb(64, 99, 112));
+  border: rgb(146, 198, 219) 1px solid;
   border-radius: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: xx-large;
@@ -198,8 +200,8 @@ nav {
     width: 150px;
     height: auto;
     text-align: center;
-    background-color: tan;
-    border: tan 1px solid;
+   background-image: linear-gradient(rgb(64, 99, 112),rgb(146,200,150),rgb(146, 198, 219),rgb(64, 99, 112));
+    border: rgb(146, 198, 219) 1px solid;
     border-radius: 30px;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: xx-large;
