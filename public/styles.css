@@ -6,7 +6,6 @@ nav {
   border-radius: 50%;
   width: 50px;
   padding-left: 10px;
-  
 }
 #companyName {
   position: relative;
@@ -19,12 +18,12 @@ nav {
 
 #navbarSupportedContent {
   padding-right: 100px;
-  text-shadow: 1px  1px 2px white;
+  text-shadow: 1px 1px 2px white;
 }
 
-#navbarSupportedContent .nav-item:hover{
-    border-bottom: solid medium dimgrey;
-    border-right: solid medium dimgrey;
+#navbarSupportedContent .nav-item:hover {
+  border-bottom: solid medium dimgrey;
+  border-right: solid medium dimgrey;
 }
 
 .footer {
@@ -35,22 +34,22 @@ nav {
 }
 
 .home-section {
-  background-color:black;
+  background-color: black;
   padding: 30px;
-  
 }
 .home-section span {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
   color: white;
-  text-shadow: 1px 1px 2px rgb(29, 4, 248), 1px 2px 25px blue, -1px 2px 5px darkblue;
+  text-shadow: 1px 1px 2px rgb(29, 4, 248), 1px 2px 25px blue,
+    -1px 2px 5px darkblue;
 }
 .home-row1 {
   padding-top: 100px;
 }
 .homecontent h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
@@ -62,10 +61,10 @@ nav {
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 .homecontent h1 {
-    margin-top: 30px;
+  margin-top: 30px;
   padding: 30px 0px 0px 10px;
   font-family: "Times New Roman", Times, serif;
-  color:yellow;
+  color: yellow;
   font-weight: bolder;
   text-shadow: 4px 2px 5px red;
 }
@@ -75,7 +74,7 @@ nav {
   }
   .homecontent h1 {
     margin-top: 80px;
-    font-size:x-large;
+    font-size: x-large;
   }
   .homecontent h1 > span {
     font-size: small;
@@ -89,8 +88,8 @@ nav {
 #myWorkProfile {
   padding: 10px 0px 20px 20px;
   font-family: "Times New Roman", Times, serif;
-  font-weight:bolder;
-  color:rgb(180, 176, 176);
+  font-weight: bolder;
+  color: rgb(180, 176, 176);
   text-shadow: 1px 2px 1px rgb(172, 159, 159);
 }
 
@@ -122,16 +121,13 @@ nav {
   border-radius: 50px;
   color: cadetblue;
 }
-.box #btn-circle1:hover{
-    background-color:brown;
-    
+.box #btn-circle1:hover {
+  background-color: brown;
 }
 
-.box #btn-circle2:hover{
-    background-color:brown;
-    
+.box #btn-circle2:hover {
+  background-color: brown;
 }
-
 
 .about-section {
   background-color: black;
@@ -142,13 +138,17 @@ nav {
   width: auto;
   height: auto;
   margin-bottom: 50px;
-  background-image: linear-gradient(rgb(64, 99, 112),rgb(146,200,150),rgb(146, 198, 219),rgb(64, 99, 112));
+  background-image: linear-gradient(
+    rgb(64, 99, 112),
+    rgb(146, 200, 150),
+    rgb(146, 198, 219),
+    rgb(64, 99, 112)
+  );
   border: rgb(146, 198, 219) 1px solid;
   border-radius: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: xx-large;
   text-shadow: 1px 2px 2px;
-  
 }
 
 #profile-pic > img {
@@ -157,7 +157,7 @@ nav {
   margin-left: 40%;
   padding: 15px;
   border-radius: 10%;
-background-image:linear-gradient(white, black,white,black,white);
+  background-image: linear-gradient(white, black, white, black, white);
 }
 
 @media (max-width: 500px) {
@@ -188,7 +188,12 @@ background-image:linear-gradient(white, black,white,black,white);
   width: 150px;
   height: auto;
   text-align: center;
-  background-image: linear-gradient(rgb(64, 99, 112),rgb(146,200,150),rgb(146, 198, 219),rgb(64, 99, 112));
+  background-image: linear-gradient(
+    rgb(64, 99, 112),
+    rgb(146, 200, 150),
+    rgb(146, 198, 219),
+    rgb(64, 99, 112)
+  );
   border: rgb(146, 198, 219) 1px solid;
   border-radius: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -197,16 +202,21 @@ background-image:linear-gradient(white, black,white,black,white);
 }
 
 #tools {
-    width: 150px;
-    height: auto;
-    text-align: center;
-   background-image: linear-gradient(rgb(64, 99, 112),rgb(146,200,150),rgb(146, 198, 219),rgb(64, 99, 112));
-    border: rgb(146, 198, 219) 1px solid;
-    border-radius: 30px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: xx-large;
-    text-shadow: 1px 2px 2px;
-  }
+  width: 150px;
+  height: auto;
+  text-align: center;
+  background-image: linear-gradient(
+    rgb(64, 99, 112),
+    rgb(146, 200, 150),
+    rgb(146, 198, 219),
+    rgb(64, 99, 112)
+  );
+  border: rgb(146, 198, 219) 1px solid;
+  border-radius: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+  text-shadow: 1px 2px 2px;
+}
 
 .icons {
   margin: 30px;
@@ -268,46 +278,46 @@ background-image:linear-gradient(white, black,white,black,white);
 }
 
 .expressjs:hover {
-    margin-top: -0.25rem;
-    margin-bottom: 0.25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
-  }
+  margin-top: -0.25rem;
+  margin-bottom: 0.25rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
+}
 
 .vscode:hover {
-    margin-top: -0.25rem;
-    margin-bottom: 0.25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
-  }
+  margin-top: -0.25rem;
+  margin-bottom: 0.25rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
+}
 
-  .postman:hover {
-    margin-top: -0.25rem;
-    margin-bottom: 0.25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
-  }
+.postman:hover {
+  margin-top: -0.25rem;
+  margin-bottom: 0.25rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
+}
 
-  .mongo-compass:hover {
-    margin-top: -0.25rem;
-    margin-bottom: 0.25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
-  }
+.mongo-compass:hover {
+  margin-top: -0.25rem;
+  margin-bottom: 0.25rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
+}
 
-  .mongodb-atlas:hover {
-    margin-top: -0.25rem;
-    margin-bottom: 0.25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
-  }
+.mongodb-atlas:hover {
+  margin-top: -0.25rem;
+  margin-bottom: 0.25rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(253, 6, 6, 0.3);
+}
 
 .contact-section {
   padding: 30px;
   background-color: black;
   display: flex;
   text-align: center;
-   color: aliceblue;
+  color: aliceblue;
 }
 .contact-section #heading {
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
-  color:chocolate;
+  color: chocolate;
   text-shadow: 1px -2px 1px rgb(245, 242, 241);
 }
 
@@ -315,7 +325,7 @@ background-image:linear-gradient(white, black,white,black,white);
   text-align: justify;
   padding: 30px;
   font-family: "Courier New", Courier, monospace;
-  font-weight:900 ;
+  font-weight: 900;
   font-size: large;
 }
 
@@ -323,17 +333,17 @@ background-image:linear-gradient(white, black,white,black,white);
   padding: 30px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: lighter;
-  color:rgb(231, 74, 68) ;
-  text-shadow: -1px 2px 1PX  rgb(167, 128, 128);
+  color: rgb(231, 74, 68);
+  text-shadow: -1px 2px 1px rgb(167, 128, 128);
 }
 
-@media(max-width:768px){
-    #icons {
-        margin-left: 40%;
-        width: fit-content;
-        margin-bottom: 55px;
-      }
+@media (max-width: 768px) {
+  #icons {
+    margin-left: 40%;
+    width: fit-content;
+    margin-bottom: 55px;
   }
+}
 
 .contact-section #icons {
   margin-left: 45%;
@@ -348,15 +358,13 @@ background-image:linear-gradient(white, black,white,black,white);
 }
 
 .contact-section #icons div:hover {
-    margin-top: -0.25rem;
-    margin-bottom: 0.25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(251, 5, 5, 0.3);
-  }
+  margin-top: -0.25rem;
+  margin-bottom: 0.25rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(251, 5, 5, 0.3);
+}
 
- 
-
-.work-section{
-    background-color: black;
+.work-section {
+  background-color: black;
 }
 
 @media (max-width: 768px) {
@@ -367,27 +375,21 @@ background-image:linear-gradient(white, black,white,black,white);
   }
 }
 
-
-
 .card {
   width: auto;
   height: 500px;
 }
 
-.card >img{
-    
-    height:50%;
+.card > img {
+  height: 50%;
 }
-
 
 .card .card-body:hover {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-  background-color:darkred;
+  background-color: darkred;
 }
-
-
 
 .card-body {
   background-color: black;
@@ -395,15 +397,12 @@ background-image:linear-gradient(white, black,white,black,white);
   overflow: auto;
 }
 
-
 .card-text {
   font-family: "Times New Roman", Times, serif;
   font-size: small;
   text-align: justify;
-  
 }
 .technologyused {
-  
   width: fit-content;
   padding: 5px;
   margin-left: 2px;
@@ -419,10 +418,9 @@ background-image:linear-gradient(white, black,white,black,white);
   text-shadow: 2px 3px 5px rgb(206, 198, 165);
 }
 
-.certificate-section{
-    background-color: black;
+.certificate-section {
+  background-color: black;
 }
-
 
 .certificate-section h2 {
   text-align: center;
@@ -430,14 +428,13 @@ background-image:linear-gradient(white, black,white,black,white);
   text-transform: uppercase;
   font-size: 50px;
   color: chocolate;
- text-shadow: 2px 3px 5px rgb(204, 200, 184);
+  text-shadow: 2px 3px 5px rgb(204, 200, 184);
 }
 .certificate-img {
   width: 600px;
   height: auto;
- margin-left: 30px;
+  margin-left: 30px;
   position: relative;
-  
 }
 
 @media (max-width: 768px) {
@@ -447,6 +444,3 @@ background-image:linear-gradient(white, black,white,black,white);
     margin-left: 5px;
   }
 }
-
-
-
