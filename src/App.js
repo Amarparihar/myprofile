@@ -12,6 +12,7 @@ function App() {
   return (
     <>
       <Router>
+      <div id="colorlib-page">
         <Navbar />
         <Switch>
           <Route path="/" component={Home} exact={true} />
@@ -21,6 +22,7 @@ function App() {
           <Route path="/contactme" component={Contact} exact={true} />
         </Switch>
         <Footer />
+        </div>
       </Router>
     </>
   );

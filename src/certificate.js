@@ -13,15 +13,24 @@ export default function Certificate() {
           </div>
           </Animated>
           <Animated animationInDelay={1000} animationInDuration={1000} animationIn="zoomIn" isVisible={true}>
+         
           <div className="row">
          
             <div className="col-lg-6 my-5 ">
               <img
                 className="certificate-img"
-                src={"./JSCertificate.png"}
-                alt="JSImg"
+                src={"./Full-stack.png"}
+                alt="FSImg"
               />
             </div>
+
+            <div className="col-lg-6 my-5">
+           <img
+             className="certificate-img"
+             src={"./JSCertificate.png"}
+             alt="JSImg"
+           />
+         </div>
            
             
             <div className="col-lg-6 my-5 ">

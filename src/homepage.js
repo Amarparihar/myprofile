@@ -21,7 +21,7 @@ export default function Home() {
         </a>
         </Animated>
         
-        <div className="container-fluid ">
+        <div className="container-fluid">
           <div className="row gx-4 gx-lg-5 home-row1">
             <div className="col-md-10 col-lg-8 mx-auto homecontent">
             <Animated animationIn="fadeInDown" isVisible={true}>
@@ -35,8 +35,10 @@ export default function Home() {
               </Animated>
               <Animated animationInDelay={1300} animationInDuration={500} animationIn="fadeInUp" isVisible={true}>
               <div id="myWorkProfile">
-                <h3>I am a Full-Stack Developer</h3>
+                <h3>I am a Full Stack Developer</h3>
+              
               </div>
+            
               </Animated>
             </div>
             
